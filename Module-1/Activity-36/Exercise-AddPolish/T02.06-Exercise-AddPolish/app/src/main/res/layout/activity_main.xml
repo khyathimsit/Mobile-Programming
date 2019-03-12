@@ -56,7 +56,7 @@
         <TextView
             android:id="@+id/tv_error_message_display"
             android:textSize="22sp"
-            android:paddingTop="16dp"
+            android:padding="16dp"
             android:text="@string/error_message"
             android:visibility="invisible"
             android:layout_width="wrap_content"
