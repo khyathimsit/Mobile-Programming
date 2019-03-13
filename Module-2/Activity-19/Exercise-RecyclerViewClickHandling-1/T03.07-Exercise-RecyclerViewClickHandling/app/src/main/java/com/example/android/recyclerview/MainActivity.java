@@ -108,6 +108,9 @@ public class MainActivity extends AppCompatActivity implements GreenAdapter.List
     // TODO (10) Override ListItemClickListener's onListItemClick method
     @Override
     public void onListItemClick(int clickedItemIndex) {
+        if(mToast != null) {
+            mToast.cancel();
+        }
         String toastMessage = "Item#" + clickedItemIndex + " clicked";
         mToast = Toast.makeText(this, toastMessage, Toast.LENGTH_LONG);
         mToast.show();
