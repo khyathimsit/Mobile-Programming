@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Feedie</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="username">Name</string>
+    <string name="register_phone_number">Phone Number</string>
+    <string name="create_account">Create Account</string>
+    <string name="password1">Password</string>
+    <string name="logout">Logout</string>
+    <string name="orphanage_title">Title</string>
+    <string name="email_id">Email id</string>
+    <string name="thank_you_for_all_your_generous_support_for_the_deprived_children">Thank you for all your generous support for the deprived children :)</string>
+    <string name="no_of_people_to_be_served">No.of people to be served:</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+
+    <string-array name="details">
+        <item>Please select the menu to be served</item>
+        <item>Meals</item>
+        <item>Breakfast</item>
+        <item>Snacks</item>
+        <item>Drinks</item>
+        <item>Dinner</item>
+        <item>Fruits</item>
+    </string-array>
+</resources>
